@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a{
@@ -10,14 +11,14 @@ a{
     color: #e5e7eb;
     font-size: 18px;
 }
-button {
+.sign {
     background-color: #3882f6;
     border: none;
     color: white;
     text-align: center;
     text-decoration: none;
     border-radius: 6px;
-    display: block;
+    
     
 }
 img{
@@ -28,9 +29,6 @@ img{
 .header{
     background-color: #1f2937;
     width: auto;
-    
-    
-    
 }
 .header-body{
     margin-top: 8px;
@@ -87,16 +85,16 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    
-    
+    background-color: #f9faf8;  
+     
 }
 .images{
     display: flex;
     justify-content: space-around;
    flex-wrap: wrap;
+   gap: 12px;
 }
-.car-1{
+.car-1,.car-2,.car-3,.car-4{
     border:5px solid #3882f6;
     border-radius: 8px;
     height: 150px;
@@ -104,39 +102,11 @@ li {
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
+    background-color: #f9faf8;
    
     
 }
-.car-2{
-    border:5px solid #3882f6;
-    border-radius: 8px;
-    height: 150px;
-    width: 150px;
-    margin: 0;
-      padding: 0;
-      flex-wrap: wrap;
-     
-}
-.car-3{
-    border:5px solid #3882f6;
-    border-radius: 8px;
-    height: 150px;
-    width: 150px;
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;
-    
-}
-.car-4{
-    border:5px solid #3882f6;
-    border-radius: 8px;
-    height: 150px;
-    width: 150px;
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;
-   
-}
+
 .shrink{
     width: 150px;
     height: 150px;
@@ -144,4 +114,67 @@ li {
 .yee{
     color: #848689;
     font-size: 18px;
+   
+}
+.lower-body{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+   
+}
+
+p{
+    margin: 0;
+   
+}
+.block{
+    display: block;
+}
+.quote{
+    justify-content: center;
+    align-items: center;
+}
+.layer-4{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: #f9faf8;
+    padding: 0px;
+    height: 300px;
+   
+   
+}
+.box{
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px;
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+   justify-content: space-around;
+   
+}
+.submit{
+    background-color: #3882f6;
+    border: solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    display: block;
+    width: 90px;
+    padding: 7px 6px;
+} 
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: medium;
 }
